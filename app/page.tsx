@@ -1,11 +1,11 @@
 import Header from "@/components/layout/Header";
-import Hero from '@/components/Hero';
+import Hero from "@/components/sections/Hero";
 import FeaturedCategories from "@/components/sections/FeaturedCategories";
 import NewArrivals from "@/components/sections/NewArrivals";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
-import Testimonials from '@/components/Testimonials';
+import Testimonials from "@/components/sections/Testimonials";
 import CallToAction from "@/components/sections/CallToAction";
-import Footer from '@/components/Footer';
+import Footer from "@/components/layout/Footer";
 
 export default async function Home() {
   return (
